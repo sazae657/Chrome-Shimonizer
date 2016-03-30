@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "ｼﾓﾅｲｻﾞー",
+  "description": "ｼﾓﾅｲｽﾞ表記を簡単にします",
+  "default_locale": "ja_JP",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_popup": "popup.html"
+  },
+  "permissions": [
+
+  ],
+  "icons" : {
+    "128": "icon.png"
+  }
+}
