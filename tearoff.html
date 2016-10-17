@@ -3,7 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <script src="js/lib/Shimonizer.js" charset="UTF-8"></script>
-    <script src="js/popup.js" charset="UTF-8"></script>
+    <script src="js/shimonize.js" charset="UTF-8"></script>
+    <script src="js/tearoff.js" charset="UTF-8"></script>
     <style>
         html {
             height: 100%;
@@ -16,7 +17,7 @@
 
         .container {
             height: 100%;
-            background: #bbddff;
+            background: #ffffff;
             overflow: hidden;
         }
         .label {
@@ -30,6 +31,7 @@
         #text {
             height: 100%;
             width: 100%;
+            padding: 5px;
         }
 
     </style>
@@ -37,8 +39,8 @@
   </head>
   <body>
     <div class="container">
-        <textarea id="text"></textarea>
+        <textarea id="text" placeholder="入力してEnterでｼﾓﾅｲｽﾞ"></textarea>
     </div>
-    <div class="label">Enterでｼﾓﾅｲｽﾞ</div>
+    <div class="label">入力してEnterでｼﾓﾅｲｽﾞ</div>
   </body>
 </html>
