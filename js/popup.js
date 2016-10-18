@@ -1,22 +1,16 @@
 window.onload = function()
 {
-    var ps = document.getElementById('tearoff');
-    try{
-        ps.addEventListener ('click', (e) => {tearoff(e)},true);
-    }catch(e){
-        ps.attachEvent('onclick', (e) => {tearoff(e)});
-    }
+    var 要素 = document.getElementById('tearoff');
+    要素.addEventListener ('click', (ぉ) => {切り離す(ぉ)},true);
 
-    ps = document.getElementById('Shimonize');
-    try{
-        ps.addEventListener ('click',(e) => {ｼﾓﾅｲｽﾞ(e)},true);
-    }catch(e){
-        ps.attachEvent('onclick', (e) => {ｼﾓﾅｲｽﾞ(e)});
-    }
+    要素 = document.getElementById('Shimonize');
+    要素.addEventListener ('click',(ぉ) => {ｼﾓﾅｲｽﾞ(ぉ)},true);
 
+    要素 = null;
 };
 
-function tearoff(e) {
+function 切り離す(ぉ)
+{
     chrome.windows.create({
         url : 'tearoff.html',
         focused : true,

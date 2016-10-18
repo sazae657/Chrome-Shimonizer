@@ -1,9 +1,10 @@
 window.onload = function()
 {
-    var ps = document.getElementById('text');
-    ps.addEventListener('keypress', (e) => {
-        if (e.keyCode == 13) {
-            ｼﾓﾅｲｽﾞ(e);
+    var ﾃｷｽﾄﾎﾞｯｸｽ = document.getElementById('text');
+    ﾃｷｽﾄﾎﾞｯｸｽ.addEventListener('keypress',
+        (ぉ) => {
+        if (ぉ.keyCode == 13) {
+            ｼﾓﾅｲｽﾞ(ぉ);
         }
     } ,true);
 };

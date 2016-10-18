@@ -1,14 +1,14 @@
-function ｼﾓﾅｲｽﾞ(e){
-    var k = document.getElementById('text');
-    if (k.value.length > 0) {
-        k.value = (new ｼﾓﾅｲｻﾞー()).ｼﾓﾅｲｽﾞ(k.value);
+function ｼﾓﾅｲｽﾞ(ぉ){
+    var ﾃｷｽﾄﾎﾞｯｸｽ = document.getElementById('text');
+    if (ﾃｷｽﾄﾎﾞｯｸｽ.value.length > 0) {
+        ﾃｷｽﾄﾎﾞｯｸｽ.value = (new ｼﾓﾅｲｻﾞー()).ｼﾓﾅｲｽﾞ(ﾃｷｽﾄﾎﾞｯｸｽ.value);
     }
 
-    var e = (e.srcElement || e.target);
-    if(e.preventDefault) {
-        e.preventDefault();
+    var 要素 = (ぉ.srcElement || ぉ.target);
+    if(要素.preventDefault) {
+        要素.preventDefault();
     }
     else{
-        e.returnValue = false;
+        要素.returnValue = false;
     }
 }
