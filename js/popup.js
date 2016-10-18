@@ -16,7 +16,9 @@ function 切り離す(ぉ)
         focused : true,
         type : 'panel',
         width : 320,
-        height: 240
+        height: 240,
+        left: window.screenX,
+        top: window.screenY + document.body.clientHeight + 320
     });
 }
 
